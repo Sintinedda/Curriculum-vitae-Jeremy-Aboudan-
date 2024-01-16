@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    border: 1px solid red;
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
@@ -20,6 +19,7 @@ header{
 .profil{
     border-radius: 50%;
     width: 200px;
+    height: 200px;
     display: block;
     margin: auto;
 }
@@ -46,7 +46,7 @@ a{
     text-decoration: none;
     font-weight: bold;
 }
-div{
+div.body{
     display: flex;
 }
 aside{
@@ -93,4 +93,22 @@ ul.pro{
 }
 p.pro{
     padding-bottom: 20px;
+}
+footer{
+    background-color: #782221;
+    padding: 10px 0 10px 0;
+}
+div.footer{
+    display: block;
+    text-align: center;
+}
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 5%;
+}
+p.update{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
 }
