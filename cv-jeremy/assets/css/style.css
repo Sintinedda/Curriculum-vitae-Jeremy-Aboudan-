@@ -58,6 +58,7 @@ h3{
     background-color: #dbc2a4;
     padding-left: 10px;
     margin: 10px 0 10px 0;
+    font-size: large;
 }
 p.perso{
     text-indent: 2rem;
@@ -73,4 +74,23 @@ ul.perso > li{
 }
 main{
     width: 75%;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+h3.pro{
+    border-left: 3px solid #782221;
+}
+h4{
+    padding: 10px 0 10px 0;
+}
+p.date{
+    padding-bottom: 10px;
+}
+ul.pro{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+p.pro{
+    padding-bottom: 20px;
 }
