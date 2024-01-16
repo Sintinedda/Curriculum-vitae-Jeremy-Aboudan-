@@ -22,6 +22,7 @@ header{
     height: 200px;
     display: block;
     margin: auto;
+    box-shadow: 0 0 10px 10px;
 }
 h1, h2{
     font-family: 'Lato', sans-serif;
@@ -98,11 +99,11 @@ footer{
     background-color: #782221;
     padding: 10px 0 10px 0;
 }
-div.footer{
+div.logo{
     display: block;
     text-align: center;
 }
-img{
+img.logo{
     height: 80px;
     width: 80px;
     border-radius: 5%;
@@ -111,4 +112,16 @@ p.update{
     text-align: center;
     color: white;
     padding-top: 10px;
+}
+address > a:hover{
+    text-decoration: underline;
+}
+img.logo:hover{
+    opacity: 0.8;
+}
+.profil:hover{
+    cursor: zoom-in;
+}
+section.pro:hover, .skill:hover{
+    border-right: 3px solid  #782221;
 }
